@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Github</title>
     <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
-  <body class="min-h-screen">
+  <body class="min-h-screen font-playfair-disply">
+    <!-- nav -->
+     <div class="">
+      <section class="bg-linear-to-r/increasing from-blue-400 to-pink-300 ">
+      <nav class="flex justify-between py-5">
+        <div><img src="src/img/ess.jpg" alt="" class="w-15 h-10 rounded-xl ml-10"></div>
+        <ul class="flex gap-10 mr-180 py-3">
+          <li><a href="">Home</a></li>
+          <li><a href="">Profile</a></li>
+          <li><a href="">Content</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <div><button class="border rounded-xl h-10 w-15 mr-10 bg-white hover:bg-blue-300">Search</button></div>
+      </nav>
+     </section>
+     </div>
     <!-- card -->
    <div class="max-w-full mx-auto width:max-w-[1000px]">
     <div class="grid grid-cols-1 300px:grid-cols-2 md:grid-cols-3 gap-5 py-20">
